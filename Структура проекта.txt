@@ -2,3 +2,21 @@
 ---
 
 ## 📁 Структура проекта
+chronoglas-android/
+├── app/
+│ ├── src/
+│ │ └── main/
+│ │ ├── java/com/example/chronoglas/
+│ │ │ ├── MainActivity.kt
+│ │ │ ├── NovelScreen.kt
+│ │ │ ├── StoryData.kt
+│ │ │ ├── SoundManager.kt
+│ │ │ └── ui/theme/ (стандартные файлы Compose)
+│ │ ├── res/
+│ │ │ ├── values/strings.xml
+│ │ │ ├── values-en/strings.xml
+│ │ │ └── raw/ (сюда кладутся .mp3)
+│ │ └── AndroidManifest.xml
+│ └── build.gradle
+├── build.gradle (Project)
+└── README.md
